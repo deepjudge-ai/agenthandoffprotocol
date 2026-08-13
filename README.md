@@ -1,6 +1,11 @@
+<img src="assets/ahp_logo.png" width="90" align="left">
+
 # Agent Handoff Protocol
 
 **Move the work, not just the prompt.**
+<br clear="left"/>
+
+![AHP handoff flow in six steps: you have an active conversation and files in Agent A; you choose to hand the task off to Agent B; Agent A securely transfers the conversation history, objective, and selected files; Agent B creates or resumes the thread; you continue in Agent B with everything you need; and later Agent B can send the task back to Agent A on the same thread. The handoff is authenticated, user-controlled, and keeps one thread ID across applications.](assets/ahp_overview.png)
 
 Agent Handoff Protocol (AHP) is an open, implementation-backed HTTP protocol
 for moving a user and enough task context from one agent application to
